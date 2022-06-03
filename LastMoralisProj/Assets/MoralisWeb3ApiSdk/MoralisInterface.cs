@@ -289,9 +289,9 @@ namespace MoralisWeb3ApiSdk
             }
             else
             {
-                EvmContractItem eci = new EvmContractItem(Web3Client, abi, baseChainId, baseContractAddress);
+               // EvmContractItem eci = new EvmContractItem(Web3Client, abi, baseChainId, baseContractAddress);
 
-                contractManager.InsertContractInstance(key, eci);
+                //contractManager.InsertContractInstance(key, eci);
             }
         }
         

@@ -140,9 +140,10 @@ namespace Main
                 HexBigInteger gas = new HexBigInteger(0);
                 
                 // Call the contract to claim the NFT reward.
-                string resp = await MoralisInterface.SendEvmTransactionAsync("Rewards", "mumbai", "claimReward", _walletAddress, gas, new HexBigInteger("0x0"), pars);
+                //string resp = await MoralisInterface.SendEvmTransactionAsync("Rewards", "mumbai", "claimReward", _walletAddress, gas, new HexBigInteger("0x0"), pars);
 
                 //We have successfully claimed it.
+                /*
                 if (resp != null)
                 {
                     _alreadyOwned = true;
@@ -157,6 +158,7 @@ namespace Main
                 
                 signingPanel.SetActive(false);
                 _signing = false;
+                */
             }
         }
 
